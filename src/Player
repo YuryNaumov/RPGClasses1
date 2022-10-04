@@ -7,7 +7,15 @@ public class Player
         set { _name = value; }
     }
 
-    public Player(string name)
+    private int _health;
+    public int Health
+    {
+        get { return _health; }
+        set { _health = value; }
+    }
+    
+
+    public Player(string name, int health)
     {
         Name = name;
     }
