@@ -18,6 +18,13 @@ public class Player
     public Player(string name, int health)
     {
         Name = name;
+        Health = health;
+
+    }
+
+    public void Death()
+    {
+        If (Health == 0) Console.WriteLine("Персонаж умер");
     }
     
 }
