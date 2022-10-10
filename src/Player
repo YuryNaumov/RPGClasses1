@@ -22,9 +22,9 @@ public class Player
 
     }
 
-    public void Death()
+    public void KnockOut()
     {
-        If (Health == 0) Console.WriteLine("Персонаж умер");
+        If (Health == 0) Console.WriteLine("Персонаж оглушен");
     }
     
 }
