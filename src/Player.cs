@@ -14,18 +14,15 @@ namespace RPGClasses
         {
             get { return _health; }
             set { _health = value; }
-        }        
+        }    
+
+        public bool KnockOut => (Health==0);    
 
         public Player(string name, int health)
         {
             Name = name;
             Health = health;
-        }
-
-        public void KnockOut()
-        {
-            if (Health == 0) Console.WriteLine("Персонаж оглушен");
-        }
+        }       
         
     }
 }
