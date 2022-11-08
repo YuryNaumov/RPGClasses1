@@ -24,9 +24,9 @@ namespace RPGClasses
             Health = health;
         }           
 
-        public void GetHit()
+        public void GetHit(int HitAmount)
         {
-            Health--;
+            Health -= HitAmount;
         } 
 
         public void ShowInfo()
