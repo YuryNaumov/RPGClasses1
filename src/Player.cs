@@ -22,12 +22,17 @@ namespace RPGClasses
         {
             Name = name;
             Health = health;
-        }      
+        }           
 
         public void GetHit()
         {
             Health--;
         } 
+
+        public void ShowInfo()
+        {
+            System.Console.WriteLine($"Имя игрока {Name}. Здоровье {Health}");
+        }
         
     }
 }
