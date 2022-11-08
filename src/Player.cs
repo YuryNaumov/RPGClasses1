@@ -22,7 +22,12 @@ namespace RPGClasses
         {
             Name = name;
             Health = health;
-        }       
+        }      
+
+        public void GetHit()
+        {
+            Health--;
+        } 
         
     }
 }
