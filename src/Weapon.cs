@@ -7,7 +7,7 @@ namespace RPGClasses
         public Weapon()
         {
             Damage =1;
-            Name = "Кинжал";
+            Name = "Ржавый кинжал";
         }
     }
 }
