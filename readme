@@ -1,2 +1,5 @@
 Набор базовых классов для RPG
 Player()
+Item()
+Weapon()
+Enemy()
